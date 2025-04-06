@@ -6,7 +6,7 @@ This is the public repository for BlichTech Unity integration.
 
 ### Prerequisite
 
-* You need to have a Blick Tech account. You can create it here: [https://blick-web.vercel.app](https://blick-web.vercel.app)
+* You need to have a Blick Tech account. You can create it here: [https://panel.blick-tech.pl](https://panel.blick-tech.pl)
 * You need to create a game in Blick Tech.
 
 ### Install asset
@@ -20,11 +20,11 @@ This is the public repository for BlichTech Unity integration.
 #### Create Game Configuration
 
 1. In `Project` window in `Assets` directory right-click on the view and select `Create -> Blick Tech -> Game Setup`.
-2. Go to your game in [https://blick-web.vercel.app](https://blick-web.vercel.app)
+2. Go to your game in [https://panel.blick-tech.pl](https://panel.blick-tech.pl)
 3. Go to `Settings` tab
 4. Click copy button beside the URL.
 5. Paste it in property `URL` in your newly created `Game Setup Asset`.
-6. Go to your game in [https://blick-web.vercel.app](https://blick-web.vercel.app) again
+6. Go to your game in [https://panel.blick-tech.pl](https://panel.blick-tech.pl) again
 7. Go to `Settings` tab.
 8. Click copy button beside the `Key`.
 9. Paste it in property `Key` in your `Game Setup Asset`.
@@ -55,7 +55,7 @@ This is the public repository for BlichTech Unity integration.
 5. Select your `Game Setup Asset` from list.
 6. Click `Connect` to connect it to your game in `BlickTech`.
 7. If proper game name appears in `Game Name` property, the game was successfully connected.
-8. If game name does not show up, check if `URL` and `Key` matches data from your game's settings in [https://blick-web.vercel.app](https://blick-web.vercel.app)
+8. If game name does not show up, check if `URL` and `Key` matches data from your game's settings in [https://panel.blick-tech.pl](https://panel.blick-tech.pl)
 
 By default, Blick Play will start gathering data when `OnEnable` is called and will stop on `OnDisable`.
 
